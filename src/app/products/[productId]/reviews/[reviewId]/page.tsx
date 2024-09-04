@@ -10,6 +10,6 @@ export default function ReviewDetail( {params}:{
         notFound();
     }
     return <h1 className="text-3xl font-bold underline">
-        Simp Review for Tanishka: {params.reviewId}.  Form simp: {params.productId}
+        Person Review for Product: {params.reviewId}.  Form Person: {params.productId}
     </h1>;
 } 

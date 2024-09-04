@@ -1,10 +1,10 @@
 export default function ProductsList() {
     return (
         <>
-            <h1> We have</h1>
-            <h2> I love Tanishka 1 </h2>
-            <h2> I love Tanishka 2 </h2>
-            <h2> I love Tanishka 3 </h2>
+            <h1> Product List</h1>
+            <h2> Product 1 </h2>
+            <h2> Product 2 </h2>
+            <h2> Product 3 </h2>
         </>
     );
 }
