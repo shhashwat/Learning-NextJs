@@ -12,7 +12,7 @@ export default function ErrorBoundary({
             <h1>
             {error.message}
             <br />
-            <button onClick={reset}>Try Again</button>
+            <button onClick={reset}>Reload the segment</button>
             </h1>
         </>
     )
