@@ -10,9 +10,9 @@ export default function ErrorBoundary({
     return(
         <>
             <h1>
-            {error.message}
+            the error is : {error.message}
             <br />
-            <button onClick={reset}>Reload the segment</button>
+            <button onClick={reset}>Reload</button>
             </h1>
         </>
     )
