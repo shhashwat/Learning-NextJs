@@ -10,7 +10,7 @@ export default function ErrorBoundary({
     return(
         <>
             <h1>
-            the error is : {error.message}
+             : {error.message}
             <br />
             <button onClick={reset}>Reload</button>
             </h1>
